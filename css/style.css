@@ -1,0 +1,198 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    text-align: center;
+    font-size: 180px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hotpink;
+    margin-bottom: 30px;
+}
+#navigation > :first-child {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    
+}
+#navigation li {
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    background-color: rgba(255, 255, 255, 0.436);
+    padding: 16px;
+    border-radius: 90px;
+    font-family: 'Agbalumo', sans-serif;
+    
+}
+#navigation img {
+    width: 75px;
+}
+
+#navigation-pages > :first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #D25697;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+}
+#navigation-pages li {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: rgb(247, 183, 183);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Agbalumo', sans-serif;
+
+}
+
+footer {
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Agbalumo', sans-serif;
+    color: black;
+    margin: 20px;
+}
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+
+.welcome-text {
+    text-align: center;
+    font-size: 22px;
+    margin: 40px 0 40px 0;
+}
+.welcome-boxes {
+    margin: 100px 40px 100px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+.welcome-boxes > button {
+    background-color: #fe8dfc;
+    padding: 100px;
+    color: rgb(155, 18, 245);
+    font-size: 30px;
+    font-family: 'Agbalumo', sans-serif;
+    border-radius: 50px;
+}
+
+/*ingredients.html*/
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Agbalumo', sans-serif;
+    color: hotpink;
+    margin: 30px;
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Agbalumo', sans-serif;
+    margin: 30px;
+}
+h4 {
+    color: antiquewhite;
+    
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.ingredientsList {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+button {
+    background-color: #ffeb9a;
+    padding: 15px 30px 15px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hotpink;
+    font-size: 16px;
+}
+
+.ingredientsList button.active#flour {
+    background-color: #e4b2ec;
+}
+
+.ingredientsList button.active#butter {
+    background-color: #e4b2ec;
+}
+
+.ingredientsList button.active#eggs {
+    background-color: #e4b2ec;
+}
+
+.ingredientsList button.active#milk {
+    background-color: #e4b2ec;
+}
+
+.ingredientsList button.active#choc {
+    background-color: #e4b2ec;
+}
+
+.ingredientsList button.active#sugar {
+    background-color: #e4b2ec;
+}
+
+/*Recipe Cards*/  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 350px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #D25697;
+    padding: 20px;
+    margin-top: 20px;
+}
+  
+.card:hover {
+    box-shadow: 0px 0px 8px 8px rgb(180, 100, 156);
+}
+  
+img {
+    border-radius: 5px 5px 0 0;
+    width: 300px;
+}
+  
+.container {
+    padding: 2px 16px;
+}
+#all-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
