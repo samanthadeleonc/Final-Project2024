@@ -94,7 +94,7 @@ footer {
 .welcome-boxes > button {
     background-color: #fe8dfc;
     padding: 100px;
-    color: rgb(155, 18, 245);
+    color: black;
     font-size: 30px;
     font-family: 'Agbalumo', sans-serif;
     border-radius: 50px;
@@ -105,7 +105,7 @@ h1 {
     text-align: center;
     font-size: 40px;
     font-family: 'Agbalumo', sans-serif;
-    color: hotpink;
+    color: black;
     margin: 30px;
 }
 h2 {
@@ -135,7 +135,7 @@ button {
     background-color: #ffeb9a;
     padding: 15px 30px 15px 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: hotpink;
+    color: black;
     font-size: 16px;
 }
 
